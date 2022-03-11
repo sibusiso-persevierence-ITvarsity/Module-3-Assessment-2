@@ -1,0 +1,391 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+
+    background-color: rgba(147, 147, 150, 0.582);
+}
+
+.body-home {
+    background-image: url('images/home-background-pot.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals {
+    background-image: url('images/meal-land-pot.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-staters {
+    background-image: url('images/staters-pot.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-drinks {
+    background-image: url('images/drinks1.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-deserts {
+    background-image: url('images/deserts-pot.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #126fbb;
+}
+
+.body-snacks {
+    background-image: url('images/kids-pot.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-order {
+    background-image: url('images/thank-you.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*============ HEADER ===========*/
+
+.header {
+    background-color: #2196f3;
+
+    width: 100%;
+    height: 50px;
+    top: 0;
+
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header i {
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: white;
+}
+
+.header img {
+    width: 150px;
+    padding-top: 14px;
+    padding-right: 25px;
+}
+
+/*=========== HOME PAGE ==========*/
+
+#home-logo-img {
+    width: 350px;
+    display: block;
+    margin: auto;
+    padding-top: 25px 10px 0 10px;
+}
+
+#home-logo-text {
+    width: 450px;
+    display: block;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+/*====== HOME PAGE MENU ======*/
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 100px;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*=========== MEALS PAGE ==========*/
+
+#meals {
+    padding-top: 50px;
+}
+
+/*====== MEALS PAGE MENU ======*/
+
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item {
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.meals-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #19191a;
+    padding-left: 10px;
+}
+
+.meals-list-item i {
+    float: right;
+    color: #1a1a1a;
+    padding-right: 10px;
+}
+
+.meals-list-item p {
+    font-size: 15px;
+    font-style: italic;
+    color: #093446;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*=========== FOOD PAGE ==========*/
+
+#food {
+    padding-top: 50px;
+}
+
+/*====== FOOD DETAILS ======*/
+
+.food-details img {
+    width: 100%;
+}
+
+.food-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.food-details h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.food-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.food-details-info p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+#price-tag {
+    display: block;
+    border: 1px solid rgb(34, 34, 33);
+    border-radius: 5px;
+
+    width: 10%;
+    padding: 5px;
+    margin-left: 45%;
+    background-color: rgba(255, 255, 255, 0.671);
+    
+}
+
+#price-tag h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+/*====== FOOD EXTRAS ======*/
+
+.food-extras h2{
+    color: red;
+}
+
+.food-extras input {
+    margin-left: 10px;
+}
+
+.food-extras label {
+    line-height: 25px;
+}
+
+/*====== FOOD EXTRAS ======*/
+
+.extra-notes {
+    margin-top: 10px;
+}
+
+.extra-notes extras {
+    width: 80%;
+}
+.extra-notes textarea {
+    width: 100%;
+    height: 25px;
+    margin: 0 10px 0 10px;
+
+    border: 1px solid #929292;
+    border-radius: 10px;
+
+    padding-top: 10px;
+}
+.textarea {
+    width: 100%;
+    height: 65%;
+    margin: 12px 0;
+    border: 1px solid #929292;
+    border-radius: 10px;
+}
+
+/*====== ORDER BUTTON ======*/
+
+.button {
+    display: block;
+    width: 20%;
+    background-color: #126fbb;
+    text-decoration: none;
+    text-align:center ;
+    color: white;
+
+   
+    font-weight: bold;
+
+    margin: 0 10px 0 40%;
+    padding: 8px;
+
+    border-radius: 30px;
+}
+
+/*=========== ORDER PAGE ==========*/
+
+/*====== MESSAGE ======*/
+
+.message {
+    display: block;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    padding: 1px;
+    background-color: rgba(243, 245, 247, 0.747);
+
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.message img{
+    width: 100%;
+}
+
+.message-thanks h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.messages-extra p{
+    font-size: 25px;
+    text-align: center;
+    color: #126fbb;
+}
+
+/*=========== RESPONSIVE LAYOUT ==========*/
+
+@media only screen and (min-width: 200px) {
+    #price-tag {
+        width: 20%;
+        margin-left: 40%;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    #meals {
+        width: 80%;
+        margin:auto;
+    }
+
+    #food {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #meals {
+        width: 60%;
+        margin:auto;
+    }
+
+    #food {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #meals {
+        width: 40%;
+        margin:auto;
+    }
+
+    #food {
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 720px){
+    .body-home {
+        background-image: url('images/home-background-land.png');
+    }
+
+    .body-meals{
+        background-image: url('images/meal-land.png');
+    }
+
+    .body-staters {
+        background-image: url('images/staters.png');
+    }
+
+    .body-deserts {
+        background-image: url('images/deserts.png');
+    }
+
+    .body-snacks {
+        background-image: url('images/kids-land.png');
+    }
+
+    .body-order {
+        background-image: url('images/thank-you-land.png');
+    }
+}
+
+
